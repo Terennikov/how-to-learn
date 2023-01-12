@@ -29,7 +29,7 @@
 
 .header__title {
   display: flex;
-  width: 730px;
+  max-width: 730px;
   margin: 0;
   margin-left: 64px;
   font-size: 102px;
@@ -42,13 +42,14 @@
   position: absolute;
   line-height: 25px;
   font-size: 18px;
-  width: 388px;
+  max-width: 388px;
   left: 64px;
   bottom: 30px;
 }
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 .header__main-illustration {
   position: absolute;
@@ -60,7 +61,7 @@
   object-fit: fill;
 }
 
-.header__square-piс {
+.header__square-pic {
   position: absolute;
   height: 568px;
   width: 568px;
@@ -70,21 +71,21 @@
   background-color: #2f80ed;
 }
 
-.discription {
+.description {
   display: flex;
   justify-content: center;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.discription__two_columns {
+.description__two-columns {
   display: flex;
   flex-direction: row;
   min-width: 784px;
   width: 80%;
 }
 
-.discription__brief {
+.description__brief {
   margin-top: 0;
   margin-bottom: 0;
   min-width: 175px;
@@ -94,7 +95,7 @@
   color: #2f80ed;
 }
 
-.discription__main-text {
+.description__main-text {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -102,13 +103,15 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  width: 80%;
+  min-width: 784px;
 }
 
-.discription__paragraph:first-child {
+.description__paragraph:first-child {
   margin-top: 0;
 }
 
-.discription__paragraph:last-child {
+.description__paragraph:last-child {
   margin-bottom: 0;
 }
 .two_columns__span-accent {
@@ -169,7 +172,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 845px;
+  min-height: 845px;
   background-color: #f2f2f2;
   padding-top: 100px;
 }
@@ -177,7 +180,7 @@
 .feynman__title {
   margin: 0;
   margin-top: 100px;
-  width: 648px;
+  max-width: 648px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
