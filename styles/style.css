@@ -182,6 +182,7 @@
   min-height: 890px;
   background-color: #f2f2f2;
   padding-top: 100px;
+  box-sizing: border-box;
 }
 
 .feynman__title {
@@ -256,7 +257,7 @@
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-  background-image: url("images/kaufman-triangle.svg");
+  background-image: url("../images/kaufman-triangle.svg");
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -294,6 +295,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 45%;
+  flex-basis: 711px;
 }
 
 .logo_place_footer {
@@ -325,11 +327,12 @@
 
 .footer__column-link {
   text-decoration: none;
-  color: #2f80ed;
+  color: white;
 }
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  margin-right: 10px;
 }
 
