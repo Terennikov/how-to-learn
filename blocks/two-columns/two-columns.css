@@ -1,0 +1,6 @@
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  min-width: 784px;
+  width: 80%;
+}
