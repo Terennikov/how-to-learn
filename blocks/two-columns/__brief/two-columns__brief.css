@@ -2,7 +2,7 @@
 .two-columns__brief {
   margin-top: 0;
   margin-bottom: 0;
-  min-width: 175px;
+  max-width: 175px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
