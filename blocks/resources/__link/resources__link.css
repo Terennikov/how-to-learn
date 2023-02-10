@@ -1,5 +1,11 @@
-.resoureces__link {
+.resources__link {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: opacity 1s ease;
 }
+
+.resources__link:hover {
+  opacity: 0.5;
+}
+
